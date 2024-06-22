@@ -12,7 +12,7 @@ const Input = ({ type, value, onChange, name, label, placeholder }) => {
         onChange={onChange}
         name={name}
         placeholder={placeholder}
-        className="focus:outline-none block w-full mt-1 rounded-md border border-primary bg-transparent px-4 py-3 text-primary transition duration-300 invalid:ring-2 invalid:ring-red-400 focus:ring-2 focus:ring-cyan-300"
+        className="focus:outline-none block w-full mt-1 rounded-md  border border-primary bg-primary px-4 py-3 text-secondary transition duration-300   focus:none"
       />
     </div>
   );
